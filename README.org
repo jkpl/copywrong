@@ -1,4 +1,4 @@
-* CopyWrong
+* Software Made Proprietary by its Copyright Holders
 
 ** What?
 
@@ -10,9 +10,8 @@ When free software becomes proprietary it means that you, as a user of
 the software, no longer have all four essential freedoms to:
 
 1. run the program as you wish, for any purpose.
-2. study how the program works, and change it so it does your computing
-   as you wish.
-3. redistribute copies so you can help your neighbour.
+2. study how the program works, and change it.
+3. redistribute copies.
 4. distribute copies of your modified versions to others.
 
 Additionally, if you are a user of free software that has become
@@ -24,45 +23,40 @@ to your supplier.
 
 There are two legal ways that free software can become proprietary:
 
-1. the copyright owners release a new version of the software using a
+1. the copyright holders release a new version of the software using a
    license that is not a free software license.
 2. the original software license wasn't
    [[https://www.gnu.org/copyleft/][copyleft]], and some entity later
    distributes a modified version of the software under a proprietary
    license.
 
+This list is concerned with the first case.
+
 ** How can I help?
 
 Luckily, there are several ways that you can help.
 
-1. If you are starting a new free software project, use a
-   [[https://www.gnu.org/copyleft/][copyleft]] license.
-2. Do not assign copyright of your free software contributions to a
+1. Do not assign copyright of your free software contributions to a
    third party until you have read the FSF guide to
    [[http://gnu.org/philosophy/assigning-copyright.html][assigning
    copyright]] and are comfortable with the situation.
-3. Document free software that has become proprietary on this list and
-   inform your community of the danger they are facing if they continue
-   to use the proprietary software.
-4. Create a fork of the software from the last point at which it was
+2. When you come across a case of free software that has become
+   proprietary, send an email to
+   [[mailto:sam.halliday@gmail.com][sam.halliday@gmail.com]] to get
+   the item added to this list. Also, inform your community of the
+   danger they are facing if they continue to use the software.
+3. Create a fork of the software from the last point at which it was
    free software. Make all your changes using a copyleft license, so
    that your changes can not be used in a proprietary distribution.
-   Trust that developers will prefer your fork, even if the proprietary
-   version may have more features in the short term.
+   Trust that developers will prefer your fork, even if the
+   proprietary version may have more features in the short term.
 
-** The Lists
+** The List
 
-*** Made Proprietary by its Owners
+| Name                                                            | Supplier                                | Free License                                                        | Proprietary License                                                                                       | Forks                                               | Notes                                                                                                  |
+|-----------------------------------------------------------------+-----------------------------------------+---------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------+-----------------------------------------------------+--------------------------------------------------------------------------------------------------------|
+| [[https://github.com/slick/slick][Slick]]                       | [[https://www.typesafe.com/][TypeSafe]] | [[http://directory.fsf.org/wiki/License:BSD_3Clause][BSD 3 Clause]] | [[http://typesafe.com/public/legal/TypesafeSubscriptionAgreement.pdf][TypeSafe Subscription Agreement]]   | [[https://github.com/smootoo/freeslick][FreeSlick]] | The Slick library remains free software, but database drivers were converted to a proprietary license. |
+| [[https://en.wikipedia.org/wiki/FoundationDB][FoundationDB]]    | Apple                                   | [[http://directory.fsf.org/wiki/License:Apache2.0][Apache 2.0]]     | [[http://techcrunch.com/2015/03/24/apple-acquires-durable-database-company-foundationdb/][not available]] | unknown                                             | last known free release on [[http://search.maven.org/#browse%7C-1374863701][Maven Central]]            |
+| [[https://en.wikipedia.org/wiki/Launchd][LaunchD]]              | Apple                                   | [[http://directory.fsf.org/wiki/License:Apache2.0][Apache 2.0]]     | [[http://images.apple.com/legal/sla/docs/OSX1011.pdf][OS X SLA]]                                          | unknown                                             | last known free release in [[https://opensource.apple.com/source/launchd/][Apple Open Source]]         |
+| [[https://en.wikipedia.org/wiki/Nessus_%28software%29][Nessus]] | Tenable Network Security                | [[http://www.gnu.org/licenses/gpl.html][GPL]]                       | [[https://store.tenable.com/][commercial, details not available]]                                         | [[http://www.openvas.org/][OpenVAS]]                |                                                                                                        |
 
-| Name         | Supplier                 | Free License | Proprietary License               | Forks     | Notes                                                                                                  |
-|--------------+--------------------------+--------------+-----------------------------------+-----------+--------------------------------------------------------------------------------------------------------|
-| [[https://github.com/slick/slick][Slick]]        | [[https://www.typesafe.com/][TypeSafe]]                 | [[https://opensource.org/licenses/BSD-2-Clause][BSD 2 Clause]] | [[http://typesafe.com/public/legal/TypesafeSubscriptionAgreement.pdf][TypeSafe Subscription Agreement]]   | [[https://github.com/smootoo/freeslick][FreeSlick]] | The Slick library remains free software, but database drivers were converted to a proprietary license. |
-| [[https://en.wikipedia.org/wiki/FoundationDB][FoundationDB]] | Apple                    | [[http://opensource.org/licenses/Apache-2.0][Apache 2.0]]   | [[http://techcrunch.com/2015/03/24/apple-acquires-durable-database-company-foundationdb/][not available]]                     | unknown   | last known free release on [[http://search.maven.org/#browse%7C-1374863701][Maven Central]]                                                               |
-| [[https://en.wikipedia.org/wiki/Launchd][LaunchD]]      | Apple                    | [[http://opensource.org/licenses/Apache-2.0][Apache 2.0]]   | [[http://images.apple.com/legal/sla/docs/OSX1011.pdf][OS X SLA]]                          | unknown   | last known free release in [[https://opensource.apple.com/source/launchd/][Apple Open Source]]                                                           |
-| [[https://en.wikipedia.org/wiki/Nessus_%28software%29][Nessus]]       | Tenable Network Security | [[http://opensource.org/licenses/GPL-3.0][GPL]]          | [[https://store.tenable.com/][commercial, details not available]] | [[http://www.openvas.org/][OpenVAS]]   |                                                                                                        |
-
-*** Third Party Proprietary Distributions
-
-| Name | Free Supplier | Proprietary Supplier | Proprietary License | Notes                                                       |
-|------+---------------+----------------------+---------------------+-------------------------------------------------------------|
-| LLVM | [[http://llvm.org][LLVM]]          | Apple                | [[http://images.apple.com/legal/sla/docs/xcode.pdf][XCode SLA]]           | The [[http://llvm.org/docs/DeveloperPolicy.html#copyright-license-patents][LLVM license intentionally encourages proprietary forks]] |
